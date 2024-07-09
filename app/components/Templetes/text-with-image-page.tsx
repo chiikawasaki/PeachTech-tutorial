@@ -30,6 +30,7 @@ const TextWithImagePage: React.FC<TextWithImagePageProps> = ({
         />
         {textWithImageArea.map((data) => (
           <TextWithImageArea
+            key={data.title}
             title={data.title}
             detail={data.detail}
             img={data.img}

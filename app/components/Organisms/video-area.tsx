@@ -64,8 +64,10 @@ const VideoArea: React.FC<VideoAreaProps> = ({ img, href, contents }) => {
         >
           概要
         </Typography>
-        {contents.map((data) => (
-          <Typography fontSize={{ xs: 12, md: 17 }}>・{data}</Typography>
+        {contents.map((data, index) => (
+          <Typography key={index} fontSize={{ xs: 12, md: 17 }}>
+            ・{data}
+          </Typography>
         ))}
       </Box>
     </Box>
