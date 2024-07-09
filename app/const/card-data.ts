@@ -1,6 +1,6 @@
-import { cardDataProps } from "../types/types";
+import { CardDataProps } from "../types/types";
 
-export const cardData: cardDataProps[] = [
+export const cardData: CardDataProps[] = [
   {
     title: "Discordの説明",
     imageSrc: "/discord-image.png",
